@@ -1,0 +1,78 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.07);
+  width: 380px;
+  height: 374px;
+}
+.taskManagementB {
+  position: absolute;
+  top: 153px;
+  left: 87px;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+  display: inline-block;
+}
+.readMoreDiv,
+.theProcessOfManagingATask {
+  position: absolute;
+  font-size: 16px;
+  display: inline-block;
+}
+.theProcessOfManagingATask {
+  top: 195px;
+  left: 23px;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+  width: 335px;
+  opacity: 0.7;
+}
+.readMoreDiv {
+  top: 0;
+  left: 0;
+  line-height: 100%;
+  font-weight: 600;
+  font-family: Inter;
+  color: #0f0bc7;
+  text-align: left;
+}
+.readMoreBtn,
+.vectorIcon {
+  position: absolute;
+  top: 3.25px;
+  left: 91px;
+  width: 12.96px;
+  height: 9.95px;
+}
+.readMoreBtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 313px;
+  left: 139px;
+  width: 102.5px;
+  height: 16px;
+}
+.icon {
+  position: absolute;
+  top: 54px;
+  left: 158px;
+  width: 64px;
+  height: 64px;
+}
+.itemDiv {
+  position: relative;
+  width: 380px;
+  height: 374px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}

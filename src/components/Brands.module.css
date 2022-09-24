@@ -1,0 +1,45 @@
+.image3Icon,
+.image4Icon,
+.image5Icon,
+.image7Icon,
+.image8Icon {
+  position: relative;
+  width: 168.81px;
+  height: 42px;
+  flex-shrink: 0;
+  object-fit: cover;
+  opacity: 0.85;
+}
+.image4Icon,
+.image5Icon,
+.image7Icon,
+.image8Icon {
+  width: 167.82px;
+  height: 76px;
+}
+.image4Icon,
+.image5Icon,
+.image7Icon {
+  width: 144.13px;
+  height: 44px;
+}
+.image5Icon,
+.image7Icon {
+  width: 132.28px;
+}
+.image7Icon {
+  width: 146.1px;
+}
+.brandsDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 99px;
+}
+@media screen and (max-width: 1200px) {
+  .brandsDiv {
+    flex-direction: column;
+  }
+}
