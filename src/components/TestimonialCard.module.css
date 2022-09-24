@@ -1,0 +1,60 @@
+.baseDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.07);
+  width: 380px;
+  height: 367px;
+}
+.locationDiv,
+.nameB {
+  position: absolute;
+  left: 106px;
+  display: inline-block;
+}
+.locationDiv {
+  top: 296px;
+  opacity: 0.7;
+}
+.nameB {
+  top: 274px;
+  font-size: 16px;
+}
+.imageIcon {
+  top: 267px;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.imageIcon,
+.reviewIcon,
+.textDiv {
+  position: absolute;
+  left: 38px;
+}
+.textDiv {
+  top: 102px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+  width: 270px;
+  opacity: 0.8;
+}
+.reviewIcon {
+  top: 52px;
+  width: 96px;
+  height: 16.36px;
+}
+.card01Div {
+  position: relative;
+  width: 380px;
+  height: 367px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: Inter;
+}

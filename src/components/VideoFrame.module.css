@@ -1,0 +1,13 @@
+.frameIcon {
+  position: relative;
+  width: 657px;
+  height: 387px;
+  flex-shrink: 0;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
